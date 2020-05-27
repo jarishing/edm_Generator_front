@@ -1,0 +1,298 @@
+.modalList-button{
+    border: 1px lightgray solid;
+    border-top: 7px lightgray solid;
+    border-bottom: 1px #FFF solid;
+    text-align: center;
+    height: 34px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    position: relative;
+    bottom: 43px;
+    cursor: pointer;
+}
+
+.modalList-button-selected{
+    border: 1px lightgray solid;
+    border-top: 7px #1D91D0 solid;
+    border-bottom: 1px #FFF solid;
+    text-align: center;
+    height: 34px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D91D0;
+    position: relative;
+    bottom: 41px;
+    cursor: pointer;
+}
+
+.modalList-content{
+    border: 1px lightgray solid;
+    width: 1263px;
+    height: 400px;
+}
+
+.direct{
+    padding: 20px;
+}
+
+.direct-row{
+    display: flex;
+}
+
+.direct-row-title{
+    color: rgb(29, 145, 208);
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+    padding: 0 0 5px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.direct-row-title-button{
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(29, 145, 208);
+    color: #FFF;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.direct-row-Name{
+    width: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #1D91D0;
+    font-weight: bold;
+}
+
+.direct-row-Name > input{
+    margin-left: 25px;
+    width: 300px;
+    height: 25px;
+    padding: 1px 10px;
+}
+
+.direct-row-button{
+    width: 30px;
+    height: 30px;
+    border: 1px #1D91D0 solid;
+    color: #1D91D0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0;
+    margin-right: 20px;
+}
+
+.direct-item{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.direct-item > .css-2b097c-container{
+    width: 105px;
+}
+
+.direct-subitem-title{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    color: #1D91D0;
+}
+
+.direct-subitem-title > input{
+    margin-left: 10px;
+    height: 32px;
+    width: 30px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px lightgray solid;
+}
+
+.direct-subitem-normal{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    color: #1D91D0;
+}
+
+.direct-subitem-normal > input{
+    margin-left: 10px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px lightgray solid;
+    padding: 1px 10px;
+}
+
+.direct-preview{
+    width: 400px;
+    padding: 0 20px;
+    border-left: 1px solid lightgray;
+}
+
+.direct-list{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 300px;
+}
+
+
+.direct-list::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+.direct-list::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.list{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-content{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 360px;
+    width: 100%;
+}
+
+.list-content::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+.list-content::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-bottom: 1px solid lightgray;
+    color: dimgray;
+}
+
+.item-content{
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.item-content:hover{
+    color: #1D91D0;
+}
+
+.item-column{
+    width: 42%;
+    padding-left: 30px;
+}
+
+.item-icon{
+    color: #1D91D0;
+    padding-top: 3px;
+    width: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.list-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D91D0;
+    font-weight: 600;
+    padding: 10px 0 20px;
+}
+
+.list-search > div{
+    color: #1D91D0;
+    font-weight: 600;
+    padding-right: 25px;
+}
+
+.list-search > input{
+    height: 25px;
+    width: 300px;
+    padding: 0 10px;
+}
+
+.list-button{
+    margin: 0 40px;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1D91D0;
+    color: #fff !important;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.list-title-wrapper{
+    font-weight: 500;
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    width: 91%;
+}
+
+.list-title{
+    width: 29.5%;
+    padding-left: 72px;
+}
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+    color: #1D91D0 !important;
+}
+
+.list-nameList{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 265px;
+}
+
+.list-Loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+}
+
+.list-preview{
+    width: 400px;
+    padding: 0 20px;
+    border-left: 1px solid lightgray;
+}
+
+.list-preview-title{
+    color: rgb(29, 145, 208);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.blue{
+    color: #1D91D0 !important;
+}

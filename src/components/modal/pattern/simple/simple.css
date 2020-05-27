@@ -1,0 +1,48 @@
+.modal-simple{
+    width: 500px;
+    background: #fff;
+    padding: 10px 20px 0;
+}
+
+.modal-simple > div{
+    padding: 10px 0;
+}
+
+.modal-simple-title-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-simple-title-list > p{
+    color: #1D91D0;
+    margin: 0;
+    font-weight: 600;
+}
+
+.modal-simple-title-list > svg{
+    font-size: 20px;
+    color: #1D91D0;
+}
+
+.modal-simple-content{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    height: 100px;
+}
+
+.modal-simple-content > p{
+    color: dimgray;
+}
+
+.modal-simple-button-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-button{
+    background: #1D91D0;
+    padding: 6px 12px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}

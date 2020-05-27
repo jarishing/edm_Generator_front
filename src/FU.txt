@@ -1,0 +1,131 @@
+<p>Hi [name],</p>
+<p>Did you receive my previous email about the price increase on January 1<sup>st</sup>?</p>
+<p>I just wanted to ensure that you were aware of the cost savings you could make by beating the Christmas/New Year rush.</p>
+<p>Would you like to schedule a call to discuss your options?</p>
+<p>Many thanks,</p>
+
+
+
+
+---------------ITA-----------------------------
+<p>Gentile,</p>
+<p>La presente per sapere se ha ricevuto le informazioni sui sovrapprezzi del nuovo anno?</p>
+<p>Ci tengo ad assicurarmente, cosi’ da assisterla ad evitare ritardi e incrementi di prezzo inutili.</p>
+<p>Saro’ molto felice di contattarla se ha bisogno di ulteriori chiarimenti.</p>
+<p>In attesa di un gentile riscontro porgo cordiali saluti,</p>
+
+
+
+
+
+---------------Port-----------------------------
+<p>Olá  [RECEIVER] ,</p>
+<p>Gostaria apenas confirmar se recebeu meu email anterior sobre o aumento de preços em 01 de Janeiro?</p>
+<p>Apenas gostaria de ter a certeza de que está ciente da economia que poderá fazer caso inicie o seu seguro antes das festividades de Natal e Ano Novo!</p>
+<p>Deixa-me saber por favor se gostaria que eu te ligasse para retomar o assunto.</p>
+<p>Atenciosamente,</p>
+
+
+
+
+
+
+---------------Spa-----------------------------
+<p>Estimado/a,</p>
+<p>¿Quisiera saber si has recibido mi previo correo en materia de recargos a partir del 1 de Enero?</p>
+<p>Es importante que sepas que todos aseguradores pondrán recargos con el año nuevo y que todavía puedes ganar dinero.</p>
+<p>Por favor avísame si quieres charlar por teléfono y ver diferentes opciones.</p>
+<p>Muchas gracias,</p>
+
+
+
+
+
+---------------FR-----------------------------
+<p>Bonjour</p>
+<p>Avez-vous reçu mon email précèdent concernant l’augmentation des prix des assurances au 1er Janvier?</p>
+<p>Je voulais juste m’assurer que vous étiez au courant des possibles économies que vous pouvez faire en souscrivant avant le rush de Noel/du Nouvel An.</p>
+<p>Faites-moi savoir si vous souhaitez que je vous appelle afin que nous revoyions ensemble vos options.</p>
+<p>Merci,</p>
+
+
+
+
+---------------RU----------------------------
+<p>Добрый день [Name],</p>
+<p>Вы получили мое предыдущее письмо о повышении цен на страхование с 1 января?</p>
+<p>Я просто хотела убедиться, что вы знаете об экономии средств, в случае приобретения страхового полиса до наступления 2019 года.</p>
+<p>Могу я Вас набрать в удобное время, чтобы обсудить возможные варианты?</p>
+<p>С уважением и наилучшими пожеланиями,</p>
+
+
+
+
+
+
+---------------CN---------------------------
+<p>您好，</p>
+<p>请问您收到前面发给您关于<strong>年底涨费</strong>的邮件了吗？</p>
+<p>如果您依然想要了解一份医疗保险，并希望避开年底涨费与节假日高峰，请随时联系我。</p>
+<p>我也很乐意在您方便的时候给您打个电话详细了解您的情况。</p>
+<p>谢谢！祝好！</p>
+
+
+
+---------------dutch---------------------------
+<p>Beste [Name],</p>
+<p>Heeft u mijn laatste e-mail ontvangen over de prijsverhogingen op 1 januari?</p>
+<p>Ik wilde er zeker van zijn dat u zich bewust bent van de kostenbesparing die u kunt maken indien u zich aanmeldt vóór de Kerst- en Nieuwjaarsdrukte.</p>
+<p>Zou u een telefoongesprek willen inplannen om uw opties te bespreken?</p>
+<p>Met vriendelijke groet,</p>
+
+
+
+[[!getSessionVar:isnot=`1`:then=`
+[[!Quote?
+    &fields=`{
+        "name": {"required": true},
+        "first-name":{"required":true},
+        "last-name":{"required":true},
+        "email": {"required":true, "email":true},
+        "nationality":{"required":true},
+        "comments": {},
+        "keywords": {},
+        "cmid": {},
+        "dgid": {},
+        "kwid": {},
+        "netw": {},
+        "dvce": {},
+        "crtv": {},
+        "adps": {}
+    }`
+    &preHooks=`{"splitname":{"target":["first-name","last-name"], "source":"name"}}`
+    &postField=`landing`
+    &postUrl=`[[++quote_post_url]]form1ToDb.php`
+    &redirectUrl=`358`
+    &tpl=`maternity_p1`
+    &type=`Individual`
+    &source=`FB-PPSG-AD`
+    &sessionToPost=`{}`
+    &onSuccessHooks=`{"setSessionVar":{"var":"PPSG_MATERNITY_LP", "value":1}}`
+]]
+` ?&var=`PPSG_MATERNITY_LP`]]
+
+
+[[!getSessionVar:is=`1`
+              :then=`<a class="btn btn-primary btn-default mx-auto d-block d-md-inline-block mt-30" role="button" herf="https://www.pacificprime.sg/">Saved</div>`
+              :else=`<div>Nooooooooooooooooooooooooooooooooooooooo</div>`
+              ?&var=`PPSG_COHI2019`]]
+
+
+              <a class="btn btn-primary btn-default mx-auto d-block d-md-inline-block mt-30" role="button" data-toggle="modal" data-target="#exampleModalCenter">Download now</a>
+
+
+
+
+Hanessa
+Dacayana
+Harrison 
+Fernando
+Jessica 
+Cummins

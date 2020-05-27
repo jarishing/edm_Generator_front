@@ -1,0 +1,89 @@
+.langButton{
+    margin: 10px 0 0;
+    text-align: center;
+    height: 28px;
+    cursor: pointer;
+    background: #FFF;
+}
+
+.non-selected{
+    border: 1px gray solid;
+    border-radius: 8px;
+    color: gray;
+}
+
+.selected{
+    border: 1px #1D91D0 solid;
+    border-radius: 8px;
+    color: #1D91D0;
+}
+
+.ck-editor__editable_inline {
+    min-height: 400px;
+}
+
+.main-print-button{
+    width: 663px;
+    height: 50px;
+    margin: 20px 300px 100px;
+    border: 1px solid;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    color: #1D91D0;
+    cursor: pointer;
+}
+
+.drawer-button-List{
+    position: fixed;
+    right: -57px;
+    top: 170px;
+    display: flex;
+    transform: rotate(90deg);
+    
+}
+
+.drawer-button{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 7px solid lightgray;
+    color: #999;
+    cursor: pointer;
+    background: #fff;
+}
+
+.drawer-button:hover{
+    border-bottom: 7px solid #1D91D0;
+    color: #1D91D0;
+    padding: 15px 20px;
+    top: 10px;
+    left: -5px;
+}
+
+.drawer-button-title{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
